@@ -1,0 +1,16 @@
+# Compiled files
+*.o
+*.out
+*.exe
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated files
+*.mc
+*.asm
+
+# OS files
+.DS_Store
+
