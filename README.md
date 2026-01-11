@@ -34,13 +34,13 @@ mips-assembler-disassembler/
 Usage
 
 Assemble 
-
+```bash
 python3 assembler.py examples/fizzbuzz.asm examples/fizzbuzz.mc
-
+```
 Disassemble
-
+```bash
 python3 disassembler.py examples/fizzbuzz.mc examples/fizzbuzz_out.asm
-
+```
 Example
 ```asm
 addi $t0, $zero, 1
