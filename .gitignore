@@ -7,10 +7,15 @@
 __pycache__/
 *.pyc
 
-# Generated files
+# Generated files (ignore by default)
 *.mc
 *.asm
 
-# OS files
-.DS_Store
+# But KEEP example assembly/machine code
+!examples/
+!examples/*.asm
+!examples/*.mc
 
+# macOS files
+.DS_Store
+**/.DS_Store
